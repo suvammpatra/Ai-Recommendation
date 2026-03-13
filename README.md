@@ -43,7 +43,7 @@ src/
 ## How It Works
 
 1. The user types a natural language query (e.g. "phone under $500 with good camera")
-2. The full product catalog is sent to Groq's `llama3-8b-8192` model as context
+2. The full product catalog is sent to Groq's 'llama-3.3-70b-versatile' model as context
 3. The model returns a JSON object with matching product IDs and an explanation
 4. Matching products are highlighted; non-matches are dimmed
 
