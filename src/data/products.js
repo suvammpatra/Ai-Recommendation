@@ -1,0 +1,25 @@
+const products = [
+  { id: 1, name: "Galaxy S24 FE", brand: "Samsung", category: "phones", price: 449, desc: "6.7\" AMOLED, 50MP triple camera, 5000mAh battery, Android 14." },
+  { id: 2, name: "Pixel 8a", brand: "Google", category: "phones", price: 499, desc: "Tensor G3 chip, best-in-class camera AI, 7 years of OS updates." },
+  { id: 3, name: "iPhone 15", brand: "Apple", category: "phones", price: 699, desc: "A16 Bionic, Dynamic Island, 48MP main camera, USB-C." },
+  { id: 4, name: "Moto G Power 5G", brand: "Motorola", category: "phones", price: 249, desc: "6000mAh battery, clean Android, 50MP camera." },
+  { id: 5, name: "OnePlus Nord 4", brand: "OnePlus", category: "phones", price: 399, desc: "Snapdragon 7+ Gen 3, 100W charging, 50MP Sony sensor." },
+  { id: 6, name: "MacBook Air M3", brand: "Apple", category: "laptops", price: 1099, desc: "Apple M3 chip, 18hr battery, 15.3\" Liquid Retina, fanless." },
+  { id: 7, name: "Dell Inspiron 15", brand: "Dell", category: "laptops", price: 649, desc: "Intel Core i5 13th Gen, 16GB RAM, 512GB SSD, FHD display." },
+  { id: 8, name: "Lenovo IdeaPad 5", brand: "Lenovo", category: "laptops", price: 599, desc: "AMD Ryzen 5, 8GB RAM, 256GB SSD, thin and light." },
+  { id: 9, name: "ASUS VivoBook 16X", brand: "ASUS", category: "laptops", price: 749, desc: "Ryzen 7 7730U, 16GB RAM, OLED display." },
+  { id: 10, name: "Sony WH-1000XM5", brand: "Sony", category: "audio", price: 349, desc: "Industry-leading ANC, 30hr battery, multipoint pairing." },
+  { id: 11, name: "AirPods Pro 2", brand: "Apple", category: "audio", price: 249, desc: "Adaptive ANC, Personalized Spatial Audio, USB-C." },
+  { id: 12, name: "Jabra Evolve2 55", brand: "Jabra", category: "audio", price: 199, desc: "Advanced ANC, UC-certified, 36hr battery." },
+  { id: 13, name: "Anker Soundcore Q45", brand: "Anker", category: "audio", price: 79, desc: "Adaptive ANC, Hi-Res Audio, 50hr battery." },
+  { id: 14, name: "Apple Watch Series 9", brand: "Apple", category: "wearables", price: 399, desc: "S9 chip, Double Tap gesture, ECG, blood oxygen." },
+  { id: 15, name: "Fitbit Charge 6", brand: "Google", category: "wearables", price: 159, desc: "Built-in GPS, Google Maps, heart rate, 7-day battery." },
+  { id: 16, name: "Garmin Venu 3", brand: "Garmin", category: "wearables", price: 449, desc: "AMOLED display, 14-day battery, comprehensive health tracking." },
+  { id: 17, name: "Samsung Galaxy Watch 6", brand: "Samsung", category: "wearables", price: 299, desc: "Body composition, advanced sleep coaching, sapphire glass." },
+  { id: 18, name: "PS5 DualSense", brand: "Sony", category: "gaming", price: 69, desc: "Haptic feedback, adaptive triggers, built-in mic, USB-C." },
+  { id: 19, name: "Razer DeathAdder V3", brand: "Razer", category: "gaming", price: 99, desc: "Focus Pro 30K sensor, 90hr battery, ultra-lightweight 63g." },
+  { id: 20, name: "SteelSeries Arctis Nova Pro", brand: "SteelSeries", category: "gaming", price: 249, desc: "Dual DAC, active noise cancellation, infinity power system." },
+  { id: 21, name: "Logitech G Pro X Superlight 2", brand: "Logitech", category: "gaming", price: 159, desc: "HERO 2 25K sensor, 95hr battery, 60g, PTFE feet." },
+];
+
+export default products;
